@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "./component/RootLayout/Navbar/Navbar";
 import Banner from "./component/RootLayout/Banner_part/Banner";
+import Header from "./component/Header_part/Header";
+import Left_ani from "./component/Left_animetion/Left_ani";
 
 const App = () => {
   return (
@@ -10,6 +12,8 @@ const App = () => {
      <Navbar />
      <Banner />
      </div>
+     <Header/>
+     <Left_ani/>
       </div>
     </div>
   );

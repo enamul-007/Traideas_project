@@ -1,5 +1,6 @@
 import React from "react";
 import Banner_img from "../../../assets/Banner/Banner.png";
+import Common from "../../common_component/common_component";
 
 const Banner = () => {
   return (
@@ -18,9 +19,7 @@ const Banner = () => {
               </p>
             </div>
             <div className="pt-[130px]">
-              <h3 className="px-4 py-1 rounded text-white_text_color font-open_sans bg-custom_color">
-                We’re here - let’s talk
-              </h3>
+              <Common text="We’re here - let’s talk" />
             </div>
           </div>
           <div className="pl-[135px] pr-[135px] pt-[35px] pb-[135px]">

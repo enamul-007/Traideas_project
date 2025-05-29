@@ -7,6 +7,9 @@ export default {
         navbar_color: "var(--navbar_color)",
         white_text_color: "var(--white_text_color)",
         custom_color: "var(--custom_color)",
+        black_color: "var(--black_color)",
+        left_ani_Bgcolor: "var(--left_ani_Bgcolor)",
+        ani_text_color:"var(--ani_text_color)"
       },
 
       fontFamily: {
