@@ -4,11 +4,24 @@ export default {
   theme: {
     extend: {
       colors: {
-        auth_primary_Color: "#11175D",
-        auth_secondary_Color: "rgba(0, 0, 0, 0.42)",
-        primaryBlue: "#5F35F5",
+        navbar_color: "var(--navbar_color)",
+        white_text_color: "var(--white_text_color)",
+        custom_color: "var(--custom_color)",
       },
-      fontFamily: { Nunito: ["Nunito", "sans-serif"] },
+
+      fontFamily: {
+        open_sans: "var(--open_sans)",
+      },
+    },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "1rem",
+        sm: "2rem",
+        lg: "4rem",
+        xl: "5rem",
+        "2xl": "6rem",
+      },
     },
   },
   plugins: [],
