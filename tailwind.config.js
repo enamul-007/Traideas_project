@@ -9,7 +9,9 @@ export default {
         custom_color: "var(--custom_color)",
         black_color: "var(--black_color)",
         left_ani_Bgcolor: "var(--left_ani_Bgcolor)",
-        ani_text_color:"var(--ani_text_color)"
+        ani_text_color:"var(--ani_text_color)",
+        expertise_bg_color:"var(--expertise_bg_color)",
+        cart_color:"var(--cart_color)",
       },
 
       fontFamily: {

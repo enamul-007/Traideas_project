@@ -1,8 +1,9 @@
 import React from 'react'
 
-const common_component = ({text}) => {
+const CComponent = ({text}) => {
   return (
     <div>
+      
         <h3 className="px-4 py-1 rounded text-white_text_color font-open_sans bg-custom_color">
                 {text}
               </h3>
@@ -10,4 +11,4 @@ const common_component = ({text}) => {
   )
 }
 
-export default common_component
+export default CComponent

@@ -1,6 +1,7 @@
 import React from "react";
-import Common from "../common_component/Common_component";
+import Common from "../common_component/CComponent";
 import About_common from "../common_component/About_common";
+import Common_overlay from "../common_component/Common_overlay";
 
 
 const Header = () => {
@@ -8,11 +9,7 @@ const Header = () => {
     <div>
       <div className="container">
         <div className="pt-[72px] px-[135px]">
-          <div className="flex items-center gap-6">
-            <div class="w-[70px] h-[2px] bg-cyan-400  "></div>
-
-            <h3 className="text-2xl font-medium font-open_sans">Who we are</h3>
-          </div>
+        <Common_overlay title={"Who we are"}/>
           <div className="flex items-center pt-[38px] justify-between">
             <h2 className="text-3xl font-bold font-open_sans ">
               About us Heading

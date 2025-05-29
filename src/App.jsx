@@ -3,6 +3,7 @@ import Navbar from "./component/RootLayout/Navbar/Navbar";
 import Banner from "./component/RootLayout/Banner_part/Banner";
 import Header from "./component/Header_part/Header";
 import Left_ani from "./component/Left_animetion/Left_ani";
+import Expertise_part from "./component/Expertise_part/Expertise_part";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
      </div>
      <Header/>
      <Left_ani/>
+     <Expertise_part/>
       </div>
     </div>
   );
