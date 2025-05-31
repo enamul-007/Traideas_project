@@ -4,9 +4,9 @@ import Marquee from "react-fast-marquee";
 
 const Left_ani = () => {
   return (
-    <div>
+    <div className="bg-left_ani_Bgcolor">
       <div className="container">
-        <div className="rounded bg-left_ani_Bgcolor">
+        <div >
         <Marquee
         direction="left"
         speed={90}

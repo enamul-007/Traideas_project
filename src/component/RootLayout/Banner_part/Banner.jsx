@@ -1,5 +1,5 @@
 import React from "react";
-import Banner_img from "../../../assets/Banner/Banner.png";
+import Banner_img from "../../../assets/Banner.png";
 import Common from "../../common_component/CComponent";
 
 const Banner = () => {
