@@ -12,6 +12,7 @@ export default {
         ani_text_color:"var(--ani_text_color)",
         expertise_bg_color:"var(--expertise_bg_color)",
         cart_color:"var(--cart_color)",
+        Industry_bg_color:"var(--Industry_bg_color)",
       },
 
       fontFamily: {
