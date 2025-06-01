@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Common_overlay = ({ title, style }) => {
   return (
     <div>

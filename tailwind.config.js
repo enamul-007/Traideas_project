@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage:{
+        network_img: "/src/assets/network_img.png"
+      },
       colors: {
         navbar_color: "var(--navbar_color)",
         white_text_color: "var(--white_text_color)",

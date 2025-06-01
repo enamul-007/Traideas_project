@@ -1,10 +1,17 @@
 import React from "react";
 import Banner_img from "../../../assets/Banner.png";
 import Common from "../../common_component/CComponent";
+import Navbar from "../../common_component/Navbar";
 
 const Banner = () => {
   return (
-    <div>
+    <div className="bg-gradient-to-r from-sky-300 via-violet-600 to-indigo-600">
+      {/* NavBar */}
+      <div>
+        <Navbar />
+      </div>
+      {/* NavBar */}
+
       <div className="container">
         <div className="items-center pt-12">
           <div className="flex justify-between ">

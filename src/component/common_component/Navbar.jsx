@@ -1,5 +1,5 @@
 import React from "react";
-import navimage from "../../../assets/Nav_img.png";
+import navimage from "../../assets/Nav_img.png";
 
 const Navbar = () => {
   const NavItem = [

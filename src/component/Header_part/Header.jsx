@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div>
       <div className="container">
-        <div className="pt-[72px] px-[135px]">
+        <div className="pt-[72px] ">
         <Common_overlay title={"Who we are"}/>
           <div className="flex items-center pt-[38px] justify-between">
             <h2 className="text-3xl font-bold font-open_sans ">
@@ -39,7 +39,7 @@ const Header = () => {
              
             </div>
            <div className="pb-[72px]">
-           <div className="w-[1080px] bg-black_color h-[2px] "></div>
+           <div className="w-[1340px] bg-black_color h-[2px] "></div>
             <div className="py-[30px]">
               <div className="flex justify-between">
                 <About_common title="5+" heading="Years of Experiences" />
@@ -51,7 +51,7 @@ const Header = () => {
                 <About_common title="20+" heading="Industries Served" />
               </div>
             </div>
-            <div className="w-[1080px] bg-black_color h-[2px]  "></div>
+            <div className="w-[1340px] bg-black_color h-[2px]  "></div>
            </div>
           </div>
         </div>
