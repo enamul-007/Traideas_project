@@ -1,4 +1,4 @@
-@tailwind  base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 @layer base {
@@ -37,17 +37,15 @@
   }
 }
 :root {
-  --navbar_color: #201142;
+  --navbar_color: #03dac6;
   --white_text_color: #ffff;
   --custom_color: #005572;
   --black_color: #000000;
-  --left_ani_Bgcolor: #0E2B35;
-  --ani_text_color: #03DAC6;
-  --expertise_bg_color: #1E1E1E;
-  --cart_color:#3d3b3bc3;
-  --Industry_bg_color:#E0E0E0;
-  
-
+  --left_ani_Bgcolor: #0e2b35;
+  --ani_text_color: #03dac6;
+  --expertise_bg_color: #1e1e1e;
+  --cart_color: #3d3b3bc3;
+  --Industry_bg_color: #e0e0e0;
 
   --open_sans: "Open Sans", sans-serif;
 }

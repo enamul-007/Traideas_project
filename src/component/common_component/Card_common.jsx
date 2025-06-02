@@ -5,6 +5,7 @@ import Ai_icon from "../../assets/Ai_icon.png";
 import PS_icon from "../../assets/PS_icon.png";
 import Arc_icon from "../../assets/Arc_icon.png";
 import Dimon_icon from "../../assets/Dimon_icon.png";
+import AnimatedImage from "../Animetion/Card_icon_ani";
 
 const Card_commo = () => {
   return (
@@ -25,34 +26,34 @@ const Card_commo = () => {
           <div className="flex flex-col gap-6 group">
             <div className="flex gap-6 pr-8">
               <div className="text-white_text_color h-[66px] w-[66px] border-[2px] rounded-lg border-white_text_color"></div>
-              <div className="text-white_text_color h-[66px] w-[66px] border-[2px] rounded-lg border-white_text_color ">
-                <img
-                  className="px-[14px] py-[10px] items-center opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out delay-100"
+              <div className="text-white_text_color h-[66px] w-[66px] border-[2px] rounded-lg border-white_text_color overflow-hidden ">
+                <AnimatedImage
                   src={Figma_icon}
-                  alt=""
+                  alt={Figma_icon}
+                  className="px-[14px] py-[10px] items-center opacity-0 translate-y-4 group-hover:opacity-100 transition-all duration-500 ease-in-out delay-100"
                 />
               </div>
               <div className="text-white_text_color h-[66px] w-[66px] border-[2px] rounded-lg border-white_text_color"></div>
-              <div className="text-white_text_color h-[66px] w-[66px] border-[2px] rounded-lg border-white_text_color">
-                <img
-                  className="px-[14px] py-[12px] items-center opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out delay-100"
+              <div className="text-white_text_color h-[66px] w-[66px] border-[2px] rounded-lg border-white_text_color overflow-hidden">
+                <AnimatedImage
                   src={Xd_icon}
                   alt=""
+                  className="px-[14px] py-[12px] items-center opacity-0 translate-y-4 group-hover:opacity-100 transition-all duration-500 ease-in-out delay-100"
                 />
               </div>
             </div>
             <div className="flex gap-6 pr-8">
-              <div className="text-white_text_color h-[66px] w-[66px] border-[2px] rounded-lg border-white_text_color ">
-                <img
-                  className="px-[16px] py-[16px] items-center opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out delay-100"
-                  src={Ai_icon}
+              <div className="text-white_text_color h-[66px] w-[66px] border-[2px] rounded-lg border-white_text_color overflow-hidden ">
+                <AnimatedImage
+                 src={Ai_icon}
                   alt=""
-                />
+                     className="px-[16px] py-[16px] items-center opacity-0 translate-y-4 group-hover:opacity-100 transition-all duration-500 ease-in-out delay-100"
+                 />
               </div>
               <div className="text-white_text_color h-[66px] w-[66px] border-[2px] rounded-lg border-white_text_color"></div>
-              <div className="text-white_text_color h-[66px] w-[66px] border-[2px] rounded-lg border-white_text_color">
-                <img
-                  className="px-[16px] py-[18px] items-center opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out delay-100"
+              <div className="text-white_text_color h-[66px] w-[66px] border-[2px] rounded-lg border-white_text_color overflow-hidden">
+             <AnimatedImage
+                  className="px-[16px] py-[18px] items-center opacity-0 translate-y-4 group-hover:opacity-100 transition-all duration-500 ease-in-out delay-100"
                   src={PS_icon}
                   alt=""
                 />
@@ -61,16 +62,16 @@ const Card_commo = () => {
             </div>
             <div className="flex gap-6 pr-8">
               <div className="text-white_text_color h-[66px] w-[66px] border-[2px] rounded-lg border-white_text_color"></div>
-              <div className="text-white_text_color h-[66px] w-[66px] border-[2px] rounded-lg border-white_text_color ">
-                <img
+              <div className="text-white_text_color h-[66px] w-[66px] border-[2px] rounded-lg border-white_text_color overflow-hidden ">
+                <AnimatedImage
                   className="px-[14px] py-[14px] items-center opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out delay-100"
                   src={Arc_icon}
                   alt=""
                 />
               </div>
               <div className="text-white_text_color h-[66px] w-[66px] border-[2px] rounded-lg border-white_text_color"></div>
-              <div className="text-white_text_color h-[66px] w-[66px] border-[2px] rounded-lg border-white_text_color">
-                <img
+              <div className="text-white_text_color h-[66px] w-[66px] border-[2px] rounded-lg border-white_text_color overflow-hidden">
+               <AnimatedImage
                   className="px-[14px] py-[16px] items-center opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out delay-100"
                   src={Dimon_icon}
                   alt=""

@@ -1,18 +1,36 @@
-import React from "react";
+import { useEffect, useState } from "react";
 import Common from "../common_component/CComponent";
 import About_common from "../common_component/About_common";
 import Common_overlay from "../common_component/Common_overlay";
+import SplitText from "../Animetion/SplitText";
 
 
 const Header = () => {
+  const [animate, setAnimate] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setAnimate(true);
+    }, 800);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div>
       <div className="container">
         <div className="pt-[72px] ">
-        <Common_overlay title={"Who we are"}/>
+          <div
+            className={`text-xl font-semibold text-gray-800 transition-all duration-700 ease-out ${
+              animate
+                ? "translate-x-0 opacity-100 scale-105"
+                : "-translate-x-full opacity-0 scale-90"
+            }`}
+          >
+            <Common_overlay title={"Who we are"} />
+          </div>
           <div className="flex items-center pt-[38px] justify-between">
             <h2 className="text-3xl font-bold font-open_sans ">
-              About us Heading
+              <SplitText text="About us Heading" className="text-3xl font-bold font-open_sans " />
             </h2>
             <Common text="Learn About Us" />
           </div>
@@ -36,23 +54,22 @@ const Header = () => {
                 proident, sunt in culpa qui officia deserunt mollit anim id est
                 laborum.
               </p>
-             
             </div>
-           <div className="pb-[72px]">
-           <div className="w-[1340px] bg-black_color h-[2px] "></div>
-            <div className="py-[30px]">
-              <div className="flex justify-between">
-                <About_common title="5+" heading="Years of Experiences" />
-                <div class="w-[2px] h-[120px] bg-black_color  "></div>
-                <About_common title="10+" heading="Creative Pros" />
-                <div class="w-[2px] h-[120px] bg-black_color  "></div>
-                <About_common title="50+" heading="Project Delivered" />
-                <div class="w-[2px] h-[120px] bg-black_color  "></div>
-                <About_common title="20+" heading="Industries Served" />
+            <div className="pb-[72px]">
+              <div className="h-[2px] w-full bg-black_color mx-2"></div>
+              <div className="py-[30px]">
+                <div className="flex justify-between">
+                  <About_common title="5+" heading="Years of Experiences" />
+                  <div class="w-[2px] h-[120px] bg-black_color  "></div>
+                  <About_common title="10+" heading="Creative Pros" />
+                  <div class="w-[2px] h-[120px] bg-black_color  "></div>
+                  <About_common title="50+" heading="Project Delivered" />
+                  <div class="w-[2px] h-[120px] bg-black_color  "></div>
+                  <About_common title="20+" heading="Industries Served" />
+                </div>
               </div>
+              <div className="h-[2px] w-full bg-black_color mx-2 "></div>
             </div>
-            <div className="w-[1340px] bg-black_color h-[2px]  "></div>
-           </div>
           </div>
         </div>
       </div>

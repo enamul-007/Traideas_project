@@ -4,7 +4,7 @@ import Common_overlay from "../common_component/Common_overlay";
 const Chose_part = () => {
   return (
     <div className="bg-black_color">
-      <div className="container">
+      <div className="container overflow-hidden">
         <div className="py-24 ">
           <div className="flex">
             <div>

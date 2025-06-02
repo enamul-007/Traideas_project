@@ -9,7 +9,7 @@ import software_card_img5 from "../../assets/software_card_img5.png";
 const Industry_part = () => {
   return (
     <div className="pb-[72px] bg-Industry_bg_color pt-9  ">
-      <div className="container">
+      <div className="container overflow-hidden">
         <div>
           <Common_overlay title="Industry We served" />
           <h3 className="text-3xl font-bold font-open_sans text-black_color pt-9">
