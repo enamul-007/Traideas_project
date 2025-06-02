@@ -1,14 +1,17 @@
-import React from 'react'
-import Navbar from '../../component/common_component/Navbar'
+import React from "react";
+
+import Service_nav from "./Service_component/Service_nav";
+import Service_banner from "./Service_component/Service_banner";
+import Service_Development_part from "./Service_component/Service_Development_part";
 
 const Service_page = () => {
   return (
-    <div className=' bg-[#243468]'>
-      <div className="container">
-        <Navbar />
-      </div>
+    <div>
+      <Service_nav />
+      <Service_banner />
+      <Service_Development_part />
     </div>
-  )
-}
+  );
+};
 
-export default Service_page
+export default Service_page;

@@ -2,7 +2,7 @@ import React from "react";
 import navimage from "../../assets/Nav_img.png";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({className} ) => {
   const NavItem = [
     {
       id: 1,
@@ -26,7 +26,8 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="container bg-transparent">
+  <div className={`${className}`}>
+      <div className="container bg-transparent">
       <div className="h-[50px]">
         <div className="">
           <div className="flex items-center justify-between">
@@ -57,6 +58,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
+  </div>
   );
 };
 
