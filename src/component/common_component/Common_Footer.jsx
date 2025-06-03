@@ -3,7 +3,6 @@ import nav_img from "../../assets/Nav_img.png";
 import { MdMailOutline } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 
-
 const Common_Footer = () => {
   const Footer_Item = [
     {

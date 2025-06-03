@@ -12,17 +12,17 @@ const Navbar = ({className} ) => {
     {
       id: 2,
       item: `Case Study`,
-      path: "",
+      path: "CaseStudies",
     },
     {
       id: 3,
       item: `About Us`,
-      path: "",
+      path: "AboutUs",
     },
     {
       id: 3,
       item: `Career `,
-      path: "",
+      path: "Career",
     },
   ];
   return (

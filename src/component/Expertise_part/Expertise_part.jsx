@@ -5,6 +5,7 @@ import Card_common from "../common_component/Card_common";
 const Expertise_part = () => {
   const containerRef = useRef();
   const [activeIndex, setActiveIndex , ] = useState(0);
+  
 
   const cards = [1, 2, 3, 4 , 5];
 

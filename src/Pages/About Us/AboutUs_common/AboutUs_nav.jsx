@@ -1,12 +1,13 @@
 import React from "react";
 import Navbar from "../../../component/common_component/Navbar";
 
-const Service_nav = () => {
+const AboutUs_nav = () => {
   return (
     <div className="bg-gradient-to-r from-[#243468] to-[#200E3E]">
-      <Navbar  />
+      <Navbar />
+      
     </div>
   );
 };
 
-export default Service_nav;
+export default AboutUs_nav;
