@@ -8,7 +8,10 @@ import software_card_img5 from "../../assets/software_card_img5.png";
 
 const Industry_part = () => {
   return (
-    <div className="pb-[72px] bg-Industry_bg_color pt-9  ">
+    <div
+      id="industrySection"
+      className="pb-[72px] bg-Industry_bg_color pt-9 transition-colors duration-500  "
+    >
       <div className="container overflow-hidden">
         <div>
           <Common_overlay title="Industry We served" />
@@ -19,7 +22,19 @@ const Industry_part = () => {
         <div className="flex flex-col gap-2">
           <div className="flex gap-9 ">
             {/* =========1============ */}
-            <div className="bg-gradient-to-r from-[#200E3E] to-[#243468] h-[569px] w-[664px] rounded-3xl mt-3  ">
+            <div
+              className="bg-gradient-to-r from-[#200E3E] to-[#243468] h-[569px] w-[664px] rounded-3xl mt-3 "
+              onMouseEnter={() =>
+                document
+                  .getElementById("industrySection")
+                  .classList.add("bg-[#243468]")
+              }
+              onMouseLeave={() =>
+                document
+                  .getElementById("industrySection")
+                  .classList.remove("bg-[#243468]")
+              }
+            >
               <div>
                 <picture>
                   <img src={software_card_img} alt="" />
@@ -39,11 +54,23 @@ const Industry_part = () => {
               </div>
             </div>
             {/* ---------2--------- */}
-            <div className="bg-gradient-to-r from-[#13262C] to-[#0894A6] h-[569px] w-[470px] rounded-3xl mt-3">
+            <div
+              className="bg-gradient-to-r from-[#13262C] to-[#0894A6] h-[569px] w-[470px] rounded-3xl mt-3"
+              onMouseEnter={() =>
+                document
+                  .getElementById("industrySection")
+                  .classList.add("bg-[#0894A6]")
+              }
+              onMouseLeave={() =>
+                document
+                  .getElementById("industrySection")
+                  .classList.remove("bg-[#0894A6]")
+              }
+            >
               <div>
                 <div className="w-[568px] p-[48px]  flex flex-col">
                   <h2 className="text-3xl font-bold font-open_sans text-white_text_color">
-                  Startup
+                    Startup
                   </h2>
                   <p className="text-base font-semibold text-justify font-open_sans text-white_text_color w-[374px] pt-6 ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -60,7 +87,19 @@ const Industry_part = () => {
             </div>
 
             {/* =========3=========== */}
-            <dziv className="bg-gradient-to-r from-[#200E3E] to-[#243468] h-[569px] w-[664px] rounded-3xl">
+            <dziv
+              className="bg-gradient-to-r from-[#200E3E] to-[#243468] h-[569px] w-[664px] rounded-3xl"
+              onMouseEnter={() =>
+                document
+                  .getElementById("industrySection")
+                  .classList.add("bg-[#200E3E]")
+              }
+              onMouseLeave={() =>
+                document
+                  .getElementById("industrySection")
+                  .classList.remove("bg-[#200E3E]")
+              }
+            >
               <div>
                 <picture>
                   <img src={software_card_img3} alt="" />
@@ -83,11 +122,23 @@ const Industry_part = () => {
 
           <div className="flex gap-9 ">
             {/* ==========4========== */}
-            <div className="bg-gradient-to-r from-[#13262C] to-[#0894A6] h-[569px] w-[470px] rounded-3xl mt-3">
+            <div
+              className="bg-gradient-to-r from-[#13262C] to-[#0894A6] h-[569px] w-[470px] rounded-3xl mt-3"
+              onMouseEnter={() =>
+                document
+                  .getElementById("industrySection")
+                  .classList.add("bg-[#0894A6]")
+              }
+              onMouseLeave={() =>
+                document
+                  .getElementById("industrySection")
+                  .classList.remove("bg-[#0894A6]")
+              }
+            >
               <div>
                 <div className="w-[568px] p-[48px]  flex flex-col">
                   <h2 className="text-3xl font-bold font-open_sans text-white_text_color">
-                  Education
+                    Education
                   </h2>
                   <p className="text-base font-semibold text-justify font-open_sans text-white_text_color w-[374px] pt-6 ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -105,14 +156,26 @@ const Industry_part = () => {
 
             {/* ============5========= */}
 
-            <div className="bg-gradient-to-r from-[#200E3E] to-[#243468] h-[569px] w-[664px] rounded-3xl mt-3">
+            <div
+              className="bg-gradient-to-r from-[#200E3E] to-[#243468] h-[569px] w-[664px] rounded-3xl mt-3"
+              onMouseEnter={() =>
+                document
+                  .getElementById("industrySection")
+                  .classList.add("bg-[#243468]")
+              }
+              onMouseLeave={() =>
+                document
+                  .getElementById("industrySection")
+                  .classList.remove("bg-[#243468]")
+              }
+            >
               <div>
                 <picture>
-                  <img src={software_card_img3} alt="" />
+                  <img src={software_card_img5} alt="" />
                 </picture>
                 <div className="w-[568px] p-[48px]  flex flex-col">
                   <h2 className="text-3xl font-bold font-open_sans text-white_text_color">
-                  Healthcare
+                    Healthcare
                   </h2>
                   <p className="pt-6 text-base font-semibold text-justify font-open_sans text-white_text_color">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -125,11 +188,23 @@ const Industry_part = () => {
               </div>
             </div>
             {/* =========6=========== */}
-            <div className="bg-gradient-to-r from-[#13262C] to-[#0894A6] h-[569px] w-[470px] rounded-3xl ">
+            <div
+              className="bg-gradient-to-r from-[#13262C] to-[#0894A6] h-[569px] w-[470px] rounded-3xl "
+              onMouseEnter={() =>
+                document
+                  .getElementById("industrySection")
+                  .classList.add("bg-[#0894A6]")
+              }
+              onMouseLeave={() =>
+                document
+                  .getElementById("industrySection")
+                  .classList.remove("bg-[#0894A6]")
+              }
+            >
               <div>
                 <div className="w-[568px] p-[48px]  flex flex-col">
                   <h2 className="text-3xl font-bold font-open_sans text-white_text_color">
-                  E- Com
+                    E- Com
                   </h2>
                   <p className="text-base font-semibold text-justify font-open_sans text-white_text_color w-[374px] pt-6 ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed

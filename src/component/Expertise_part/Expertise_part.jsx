@@ -3,15 +3,15 @@ import Common_overlay from "../common_component/Common_overlay";
 import Card_common from "../common_component/Card_common";
 
 const Expertise_part = () => {
-  const containerRef = useRef(null);
-  const [activeIndex, setActiveIndex] = useState(0);
+  const containerRef = useRef();
+  const [activeIndex, setActiveIndex , ] = useState(0);
 
-  const cards = [1, 2, 3, 4];
+  const cards = [1, 2, 3, 4 , 5];
 
   useEffect(() => {
     const handleScroll = () => {
       const elements = containerRef.current.querySelectorAll(".stack-card");
-      const trigger = window.innerHeight / 1;
+      const trigger = window.outerHeight / 5;
 
       elements.forEach((el, index) => {
         const rect = el.getBoundingClientRect();
@@ -20,10 +20,6 @@ const Expertise_part = () => {
         }
       });
     };
-
-
-
-    
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -42,16 +38,17 @@ const Expertise_part = () => {
             </div>
 
             {/* ===== Scroll Stacking Cards ===== */}
-            <div ref={containerRef} className="relative mt-20">
+            <div ref={containerRef} className="relative mt-20 ">
               {cards.map((_, index) => (
                 <div
                   key={index}
-                  className={`stack-card sticky top-32 mb-10 transition-all duration-500
+                  className={`stack-card sticky top-32  transition-all duration-500
                     ${
                       index === activeIndex
-                        ? "opacity-100 scale-100 z-10"
-                        : "opacity-40 scale-95 z-0"
+                        ? "opacity-100 scale-100  translate-x-0 "
+                        : "opacity-100 scale-95  translate-x-1 ]  "
                     }
+                  
                   `}
                 >
                   <Card_common />

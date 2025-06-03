@@ -10,7 +10,7 @@ import AnimatedImage from "../Animetion/Card_icon_ani";
 const Card_commo = () => {
   return (
     <div>
-      <div className=" flex justify-between rounded-xl bg-gradient-to-l from-[#100f0f] to-[#333333] shadow-xl/30">
+      <div className=" flex justify-between  bg-gradient-to-l from-[#100f0f] to-[#484747]  shadow-[0px_10px_30px_rgba(0,0,0,0.5)] rounded-xl">
         <div className="pt-[117px] pb-[85px] pl-[96px]">
           <h1 className="text-4xl font-bold font-open_sans text-white_text_color">
             UI UX Design
@@ -45,14 +45,14 @@ const Card_commo = () => {
             <div className="flex gap-6 pr-8">
               <div className="text-white_text_color h-[66px] w-[66px] border-[2px] rounded-lg border-white_text_color overflow-hidden ">
                 <AnimatedImage
-                 src={Ai_icon}
+                  src={Ai_icon}
                   alt=""
-                     className="px-[16px] py-[16px] items-center opacity-0 translate-y-4 group-hover:opacity-100 transition-all duration-500 ease-in-out delay-100"
-                 />
+                  className="px-[16px] py-[16px] items-center opacity-0 translate-y-4 group-hover:opacity-100 transition-all duration-500 ease-in-out delay-100"
+                />
               </div>
               <div className="text-white_text_color h-[66px] w-[66px] border-[2px] rounded-lg border-white_text_color"></div>
               <div className="text-white_text_color h-[66px] w-[66px] border-[2px] rounded-lg border-white_text_color overflow-hidden">
-             <AnimatedImage
+                <AnimatedImage
                   className="px-[16px] py-[18px] items-center opacity-0 translate-y-4 group-hover:opacity-100 transition-all duration-500 ease-in-out delay-100"
                   src={PS_icon}
                   alt=""
@@ -71,7 +71,7 @@ const Card_commo = () => {
               </div>
               <div className="text-white_text_color h-[66px] w-[66px] border-[2px] rounded-lg border-white_text_color"></div>
               <div className="text-white_text_color h-[66px] w-[66px] border-[2px] rounded-lg border-white_text_color overflow-hidden">
-               <AnimatedImage
+                <AnimatedImage
                   className="px-[14px] py-[16px] items-center opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out delay-100"
                   src={Dimon_icon}
                   alt=""
