@@ -27,8 +27,8 @@ const Navbar = ({className} ) => {
   ];
   return (
   <div className={`${className}`}>
-      <div className="container bg-transparent">
-      <div className="h-[50px]">
+      <div className="container py-4 bg-transparent">
+      <div className="h-[50px] ">
         <div className="">
           <div className="flex items-center justify-between">
             <div className=" w-[175px] h-[38px]  ">
