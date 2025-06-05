@@ -60,15 +60,15 @@ const Header = () => {
               <div className="py-[30px]">
                 <div className="flex justify-between">
                   <About_common title="5+" heading="Years of Experiences" />
-                  <div class="w-[2px] h-[120px] bg-black_color  "></div>
+                  <div class="w-[1.5px] h-[120px] bg-black_color  "></div>
                   <About_common title="10+" heading="Creative Pros" />
                   <div class="w-[2px] h-[120px] bg-black_color  "></div>
                   <About_common title="50+" heading="Project Delivered" />
-                  <div class="w-[2px] h-[120px] bg-black_color  "></div>
+                  <div class="w-[1.5px] h-[120px] bg-black_color  "></div>
                   <About_common title="20+" heading="Industries Served" />
                 </div>
               </div>
-              <div className="h-[2px] w-full bg-black_color mx-2 "></div>
+              <div className="h-[1.5px] w-full bg-black_color mx-2 "></div>
             </div>
           </div>
         </div>

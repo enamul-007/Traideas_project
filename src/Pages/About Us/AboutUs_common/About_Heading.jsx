@@ -42,19 +42,42 @@ const About_Heading = () => {
             </div>
           </div>
           <div className="pt-6 pb-12">
-            <div className="h-[2px] w-full bg-black_color "></div>
+            <div className="h-[2px] w-full bg-black_color" />
+
             <div className="py-[30px]">
-              <div className="flex justify-between">
-                <About_common title="5+" heading="Years of Experiences" />
-                <div class="w-[2px] h-[120px] bg-black_color  "></div>
-                <About_common title="10+" heading="Creative Pros" />
-                <div class="w-[2px] h-[120px] bg-black_color  "></div>
-                <About_common title="50+" heading="Project Delivered" />
-                <div class="w-[2px] h-[120px] bg-black_color  "></div>
-                <About_common title="20+" heading="Industries Served" />
+              <div className="flex items-center justify-between gap-x-6">
+                {/* Item 1 */}
+                <div className="flex flex-col items-center">
+                  <About_common title="5+" heading="Years of Experiences" />
+                </div>
+
+                {/* Divider */}
+                <div className="w-[2px] h-[120px] bg-black_color" />
+
+                {/* Item 2 */}
+                <div className="flex flex-col items-center">
+                  <About_common title="10+" heading="Creative Pros" />
+                </div>
+
+                {/* Divider */}
+                <div className="w-[2px] h-[120px] bg-black_color" />
+
+                {/* Item 3 */}
+                <div className="flex flex-col items-center">
+                  <About_common title="50+" heading="Project Delivered" />
+                </div>
+
+                {/* Divider */}
+                <div className="w-[2px] h-[120px] bg-black_color" />
+
+                {/* Item 4 */}
+                <div className="flex flex-col items-center">
+                  <About_common title="20+" heading="Industries Served" />
+                </div>
               </div>
             </div>
-            <div className="h-[2px] w-full bg-black_color "></div>
+
+            <div className="h-[2px] w-full bg-black_color" />
           </div>
           <div>
             <div>
@@ -160,7 +183,6 @@ const About_Heading = () => {
               </div>
             </div>
           </div>
-         
         </div>
       </div>
     </div>
