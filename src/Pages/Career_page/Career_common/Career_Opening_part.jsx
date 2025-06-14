@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { CiSearch } from "react-icons/ci";
 import Toggole_icon from "../../../component/common_component/Toggole_icon";
+import { useNavigate } from "react-router-dom";
 
 const Career_Opening_part = () => {
   const [isLocationDown, setIsLocationDown] = useState(true);
   const [isDeptDown, setIsDeptDown] = useState(true);
+  const navigate = useNavigate();
 
   const handleToggle = () => {
     setIsLocationDown((prev) => !prev);
@@ -12,6 +14,10 @@ const Career_Opening_part = () => {
 
   const handleToggle2 = () => {
     setIsDeptDown((prev) => !prev);
+  };
+  
+  const handleClick =() => {
+    navigate ("/Inside_Career");
   };
 
   return (
@@ -36,7 +42,7 @@ const Career_Opening_part = () => {
                       type="text"
                       id="name"
                       name="name"
-                      className=" pl-8 py-1   border border-black_color rounded-md shadow-sm fw-full w-[400px]"
+                      className=" pl-8 py-1   border border-black_color rounded-md shadow-sm h-full w-[400px]"
                     />
                   </div>
 
@@ -76,7 +82,9 @@ const Career_Opening_part = () => {
           </div>
         </div>
         {/* Hoverable Row Outside Container for Full Width BG */}
-        <div className="hover:bg-[#f4f4f4] transition ">
+        <div className="hover:bg-[#f4f4f4] transition  cursor-pointer" 
+        onClick={handleClick}
+        >
           <div className="container">
             <div className="flex items-start py-4">
               <div>
@@ -103,7 +111,9 @@ const Career_Opening_part = () => {
           </div>
         </div>
         <div className="pb-[85px]">
-          <div className="hover:bg-[#f4f4f4] transition  ">
+          <div className="hover:bg-[#f4f4f4] transition cursor-pointer " 
+          onClick={handleClick}
+          >
             <div className="container">
               <div className="flex items-start py-4">
                 <div>

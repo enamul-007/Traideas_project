@@ -16,11 +16,12 @@ export default {
         expertise_bg_color: "var(--expertise_bg_color)",
         cart_color: "var(--cart_color)",
         Industry_bg_color: "var(--Industry_bg_color)",
-        
+        gray_text_color : "var(--gray_text_color)"
       },
 
       fontFamily: {
-        open_sans: "var(--open_sans)",
+        open_sans: ['"Open Sans"', "sans-serif"],
+        roboto_sans: ['"Roboto"', "sans-serif"],
       },
     },
     container: {

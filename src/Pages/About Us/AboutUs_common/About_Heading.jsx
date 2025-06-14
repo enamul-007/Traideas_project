@@ -9,7 +9,7 @@ const About_Heading = () => {
   return (
     <div>
       <div className="container">
-        <div className="">
+        <div className="pt-9">
           <div>
             <Common_overlay
               title="Why It’s Called Traideas"

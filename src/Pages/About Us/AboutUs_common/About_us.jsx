@@ -22,9 +22,9 @@ const About_us = () => {
               </p>
             </div>
           </div>
-          <div>
-            <picture>
-                <img src={About_img} alt={About_img} />
+          <div className="w-full h-[636px] ">
+            <picture className="">
+                <img className="object-cover w-full h-[636px] rounded-3xl  " src={About_img} alt={About_img} />
             </picture>
           </div>
         </div>

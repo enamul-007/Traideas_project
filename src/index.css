@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @layer base {
-  @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
   * {
     margin: 0;
     padding: 0;
@@ -46,6 +46,8 @@
   --expertise_bg_color: #1e1e1e;
   --cart_color: #3d3b3bc3;
   --Industry_bg_color: #e0e0e0;
+  --gray_text_color : #878787;
 
-  --open_sans: "Open Sans", sans-serif;
+  --open_sans: '"Open Sans", sans-serif';
+  --roboto_sans: '"Roboto", sans-serif';
 }
