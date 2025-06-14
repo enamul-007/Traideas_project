@@ -35,7 +35,7 @@ const Apply = () => {
             Apply
           </h2>
         </div>
-        <div className="pl-[60px]">
+        <div className="pl-[60px] pb-[133px]">
           <div className="shadow bg-white_text_color max-w-[1000px] flex justify-center ml-20px">
             <div className="pb-[72px]">
               <div>
@@ -122,11 +122,11 @@ const Apply = () => {
                   </div>
                   <div>
                     <div>
-                         <ol className="list-decimal">
-                                    <li className="pt-12 text-2xl font-semibold font-roboto_sans text-black_color">
-                                      3. Questions
-                                    </li>
-                                  </ol>
+                      <ol className="list-decimal">
+                        <li className="pt-12 text-2xl font-semibold font-roboto_sans text-black_color">
+                          3. Questions
+                        </li>
+                      </ol>
                       <h6 className="pt-6 text-lg font-medium font-roboto_sans text-black_color">
                         Personal Summary
                       </h6>
@@ -212,13 +212,37 @@ const Apply = () => {
                                       4. Submit Application
                                     </li>
                                   </ol>
-                                 
 
                                   <p className="pt-4 text-lg font-medium text-gray_text_color font-roboto_sans w-[800px]">
-                                   In order to contact you with future jobs that you may be interested in, we need to store your personal data.
+                                    In order to contact you with future jobs
+                                    that you may be interested in, we need to
+                                    store your personal data.
                                   </p>
-                                  <span className="text-lg font-medium text-gray_text_color font-roboto_sans">If you are happy for us to do so please click the checkbox below.</span>
+                                  <span className="text-lg font-medium text-gray_text_color font-roboto_sans">
+                                    If you are happy for us to do so please
+                                    click the checkbox below.
+                                  </span>
                                 </div>
+                                <div className="flex items-center gap-4">
+                                  <input
+                                    id="information"
+                                    className="w-5 h-5"
+                                    type="checkbox"
+                                  />
+                                  <label
+                                    className="text-lg font-medium text-gray_text_color font-roboto_sans"
+                                    htmlFor="information"
+                                  >
+                                    Allow us to process your personal
+                                    information.
+                                  </label>
+                                </div>
+                              </div>
+
+                              <div className="pt-[72px] pl-[120px]">
+                                <button className=" bg-[#005572] px-[200px] py-3 rounded font-roboto_sans font-semibold text-2xl text-white_text_color">
+                                  Submit Application
+                                </button>
                               </div>
                             </div>
                           </div>
