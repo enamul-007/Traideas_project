@@ -21,7 +21,7 @@ const Apply = () => {
     <div className="bg-[#d9d9d94a]">
       <div className="container ">
         <div>
-          <div className="flex items-center gap-1 pl-[346px] pt-[72px]">
+          <div className="flex items-center gap-1 pl-[430px] pt-[72px]">
             <PiLessThan />
             <p
               className="text-sm font-medium underline cursor-pointer font-roboto_sans "
@@ -30,7 +30,7 @@ const Apply = () => {
               Looking for Junior Web Developer
             </p>
           </div>
-          <h2 className="text-4xl font-bold font-roboto_sans pl-[440px] pt-6 pb-[72px]">
+          <h2 className="text-4xl font-bold font-roboto_sans pl-[490px] pt-6 pb-[72px]">
             {" "}
             Apply
           </h2>
@@ -122,6 +122,11 @@ const Apply = () => {
                   </div>
                   <div>
                     <div>
+                         <ol className="list-decimal">
+                                    <li className="pt-12 text-2xl font-semibold font-roboto_sans text-black_color">
+                                      3. Questions
+                                    </li>
+                                  </ol>
                       <h6 className="pt-6 text-lg font-medium font-roboto_sans text-black_color">
                         Personal Summary
                       </h6>
@@ -195,6 +200,26 @@ const Apply = () => {
                                 type="checkbox"
                                 className="absolute w-5 h-5 top-4 left-3"
                               />
+                            </div>
+                          </div>
+
+                          <div>
+                            <div>
+                              <div>
+                                <div>
+                                  <ol className="list-decimal">
+                                    <li className="pt-12 text-2xl font-semibold font-roboto_sans text-black_color">
+                                      4. Submit Application
+                                    </li>
+                                  </ol>
+                                 
+
+                                  <p className="pt-4 text-lg font-medium text-gray_text_color font-roboto_sans w-[800px]">
+                                   In order to contact you with future jobs that you may be interested in, we need to store your personal data.
+                                  </p>
+                                  <span className="text-lg font-medium text-gray_text_color font-roboto_sans">If you are happy for us to do so please click the checkbox below.</span>
+                                </div>
+                              </div>
                             </div>
                           </div>
                         </div>
