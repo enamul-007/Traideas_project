@@ -2,31 +2,37 @@ import React from "react";
 import nav_img from "../../assets/Nav_img.png";
 import { MdMailOutline } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import { path } from "framer-motion/client";
 
 const Common_Footer = () => {
   const Footer_Item = [
     {
-      id: 2,
+      id: 1,
       item: `Services`,
+      path:`Service`
+    },
+
+    {
+      id: 2,
+      item: `Case Studies`,
+      path: `CaseStudies`
     },
 
     {
       id: 3,
-      item: `Case Studies`,
+      item: `About Us`,
+      path: "AboutUs",
     },
 
     {
       id: 4,
-      item: `About Us`,
+      item: `Career`,
+      path: "Career",
     },
 
     {
       id: 5,
-      item: `Career`,
-    },
-
-    {
-      id: 6,
       item: `Contact us`,
     },
   ];
@@ -51,7 +57,10 @@ const Common_Footer = () => {
               </p>
               <ul className="text-base font-semibold cursor-pointer font-open_sans text-white_text_color">
                 {Footer_Item?.map((Footer) => (
-                  <li key={Footer.id}> {Footer.item}</li>
+                  <Link 
+                  className="flex flex-col"
+                  to={`/${Footer.path}`}
+                  key={Footer.id}> {Footer.item}</Link>
                 ))}
               </ul>
             </div>
