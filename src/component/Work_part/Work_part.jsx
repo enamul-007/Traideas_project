@@ -6,82 +6,90 @@ import Work_img3 from "../../assets/Work_img3.png";
 
 const Work_part = () => {
   return (
-    <div>
-      <div className="container">
-        <div className=" pt-[72px] pb-[210px]">
+    <div className="overflow-hidden">
+      <div className="container px-4 mx-auto">
+        <div className="pt-8 pb-12 md:pt-[72px] md:pb-[210px]">
           <div>
             <Common_overlay title="Our Works" />
-            <h2 className="text-3xl font-bold font-open_sans text-black_color pt-9">
+            <h2 className="pt-4 text-xl font-bold sm:text-2xl md:text-3xl font-open_sans text-black_color md:pt-9">
               Case Studies
             </h2>
           </div>
-          <div className="flex justify-between py-8">
-            <div>
-              <picture>
-                <img src={work_img1} alt="" />
-              </picture>
+          
+          {/* Case Study 1 */}
+          <div className="flex flex-col justify-between gap-4 py-4 md:flex-row md:py-8">
+            <div className="w-full">
+              <img 
+                src={work_img1} 
+                alt="Consumer Complaint Management system" 
+                className="w-full h-auto max-w-[375px] mx-auto"
+              />
             </div>
-            <div className="py-6">
-              <h1 className="text-2xl font-semibold font-open_sans w-[470px] text-black_color ">
+            <div className="w-full py-2 md:py-6">
+              <h1 className="text-lg font-semibold sm:text-xl md:text-2xl font-open_sans text-black_color">
                 Consumer Complaint Management system
               </h1>
-              <p className="text-base font-semibold font-open_sans w-[470px] text-justify py-12">
+              <p className="py-3 text-xs font-medium text-justify sm:text-sm md:text-base font-open_sans md:py-12">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in
+                nisi ut aliquip ex ea commodo consequat.
               </p>
-
-
-              <button className="text-base font-semibold underline font-open_sans text-custom_color">Check Full Case Study</button>
+              <button className="text-xs font-semibold underline sm:text-sm md:text-base font-open_sans text-custom_color">
+                Check Full Case Study
+              </button>
             </div>
           </div>
-          <div className="flex justify-between py-8">
-          <div className="py-10">
-              <h1 className="text-2xl font-semibold font-open_sans w-[470px] text-black_color ">
-              Pret A Med
+          
+          {/* Case Study 2 */}
+          <div className="flex flex-col justify-between gap-4 py-4 md:flex-row-reverse md:py-8">
+            <div className="w-full">
+              <img 
+                src={Work_img2} 
+                alt="Pret A Med" 
+                className="w-full h-auto max-w-[375px] mx-auto"
+              />
+            </div>
+            <div className="w-full py-2 md:py-10">
+              <h1 className="text-lg font-semibold sm:text-xl md:text-2xl font-open_sans text-black_color">
+                Pret A Med
               </h1>
-              <p className="text-base font-semibold font-open_sans w-[470px] text-justify py-12">
+              <p className="py-3 text-xs font-medium text-justify sm:text-sm md:text-base font-open_sans md:py-12">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in
+                nisi ut aliquip ex ea commodo consequat.
               </p>
-
-
-              <button className="text-base font-semibold underline font-open_sans text-custom_color">Check Full Case Study</button>
+              <button className="text-xs font-semibold underline sm:text-sm md:text-base font-open_sans text-custom_color">
+                Check Full Case Study
+              </button>
             </div>
-            <div>
-              <picture>
-                <img src={Work_img2} alt="" />
-              </picture>
-            </div>
-            
           </div>
-          <div className="flex justify-between py-8">
-            <div>
-              <picture>
-                <img src={Work_img3} alt="" />
-              </picture>
+          
+          {/* Case Study 3 */}
+          <div className="flex flex-col justify-between gap-4 py-4 md:flex-row md:py-8">
+            <div className="w-full">
+              <img 
+                src={Work_img3} 
+                alt="Consumer Complaint Management system" 
+                className="w-full h-auto max-w-[375px] mx-auto"
+              />
             </div>
-            <div className="py-10">
-              <h1 className="text-2xl font-semibold font-open_sans w-[470px] text-black_color ">
+            <div className="w-full py-2 md:py-10">
+              <h1 className="text-lg font-semibold sm:text-xl md:text-2xl font-open_sans text-black_color">
                 Consumer Complaint Management system
               </h1>
-              <p className="text-base font-semibold font-open_sans w-[470px] text-justify py-12">
+              <p className="py-3 text-xs font-medium text-justify sm:text-sm md:text-base font-open_sans md:py-12">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in
+                nisi ut aliquip ex ea commodo consequat.
               </p>
-
-
-              <button className="text-base font-semibold underline font-open_sans text-custom_color">Check Full Case Study</button>
+              <button className="text-xs font-semibold underline sm:text-sm md:text-base font-open_sans text-custom_color">
+                Check Full Case Study
+              </button>
             </div>
-          </div>    
+          </div>
         </div>
       </div>
     </div>

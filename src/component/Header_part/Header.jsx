@@ -57,7 +57,7 @@ const Header = () => {
             </div>
             <div className="pb-[72px]">
               <div className="h-[2px] w-full bg-black_color mx-2"></div>
-              <div className="py-[30px]">
+              <div className="pt-[29px] pb-[30px]">
                 <div className="flex justify-between">
                   <About_common title="5+" heading="Years of Experiences" />
                   <div class="w-[1.5px] h-[120px] bg-black_color  "></div>
@@ -68,7 +68,7 @@ const Header = () => {
                   <About_common title="20+" heading="Industries Served" />
                 </div>
               </div>
-              <div className="h-[1.5px] w-full bg-black_color mx-2 "></div>
+              <div className="h-[2px] w-full bg-black_color mx-2 "></div>
             </div>
           </div>
         </div>
