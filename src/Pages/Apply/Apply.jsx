@@ -260,7 +260,7 @@ const Apply = () => {
                     <input
                       id="information"
                       type="checkbox"
-                      className="w-5 h-5 mt-1 text-blue-600 focus:ring-blue-500"
+                      className="w-5 h-5 mt-1 text-white_text_color "
                     />
                     <label
                       htmlFor="information"
