@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 const Left_ani = () => {
   return (
     <div className="bg-left_ani_Bgcolor">
-      <div className="container">
+      <div className="container px-8">
         <div >
         <Marquee
         direction="left"

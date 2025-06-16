@@ -22,8 +22,8 @@ const Banner = () => {
 
       {/* Banner Content */}
       <div className="container px-4 mx-auto sm:px-6 lg:px-8">
-        <div className="pt-6 md:pt-8 lg:pt-12">
-          <div className="flex flex-col items-center justify-between lg:flex-row lg:items-start">
+        <div className=" md:pt-4 lg:pt-12">
+          <div className="flex flex-col items-center justify-between lg:flex-row lg:items-center">
             {/* Text Content */}
             <div className="w-full mb-8 lg:w-1/2 lg:mb-0">
               <div
@@ -33,10 +33,10 @@ const Banner = () => {
                     : "-translate-x-full opacity-0 scale-90"
                 }`}
               >
-                <h1 className="text-2xl sm:text-3xl md:text-4xl font-open_sans font-bold text-white_text_color max-w-[332px] sm:max-w-full">
+                <h1 className="text-2xl sm:text-3xl md:text-3xl font-open_sans font-bold text-white_text_color max-w-[332px] sm:max-w-full xs:text-xl ">
                   Making technology work for you
                 </h1>
-                <p className="pt-4 sm:pt-6 md:pt-8 text-sm sm:text-base font-semibold text-white_text_color max-w-full md:max-w-[594px]">
+                <p className="xs:pt-2 sm:pt-4 md:pt-5 text-sm sm:text-base font-semibold text-white_text_color max-w-full md:max-w-[594px] xl:text-justify xl:w-[550px]">
                   Feels like a team that can think, design, code, and scale your
                   product from MVP to Market Ready exercitation ullamco laboris
                   nisi ut aliquip ex ea commodo consequat. Duis aute irure
@@ -52,7 +52,7 @@ const Banner = () => {
                   : "translate-x-full opacity-0 scale-90"
               }`}
             >
-              <div className="pt-4 sm:pt-8 md:pt-[130px]">
+              <div className="pt-4 sm:pt-1 md:pt-2 xs:pt-1 xs:pl-3 xl:pt-16">
                 <Common text="We're here - let's talk" />
               </div>
             </div>

@@ -30,7 +30,7 @@ const Navbar = ({ className }) => {
 
   return (
     <div className={`${className}`}>
-      <div className="container px-4 py-4 mx-auto bg-transparent sm:px-6 lg:px-8">
+      <div className="container py-4 mx-auto bg-transparent sm:px-6 lg:px-8">
         <div className="h-[50px]">
           <div className="flex items-center justify-between">
             {/* Logo */}

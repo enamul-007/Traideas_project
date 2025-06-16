@@ -7,7 +7,7 @@ import Work_img3 from "../../assets/Work_img3.png";
 const Work_part = () => {
   return (
     <div className="overflow-hidden">
-      <div className="container px-4 mx-auto">
+      <div className="container px-8 mx-auto">
         <div className="pt-8 pb-12 md:pt-[72px] md:pb-[210px]">
           <div>
             <Common_overlay title="Our Works" />

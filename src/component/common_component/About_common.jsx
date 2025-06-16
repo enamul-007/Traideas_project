@@ -5,8 +5,8 @@ const About_common = ( {title , heading} ) => {
     <div>
         <div>
           
-            <h1 className='text-4xl font-bold font-open_sans'>{title}</h1>
-            <p className='pt-4 text-base font-semibold font-open_sans'>{heading}</p>
+            <h1 className='xl:font-bold lg:text-4xl font-open_sans xs:text-base xs:font-normal lg:font-semibold'>{title}</h1>
+            <p className='xl:font-semibold xl:text-base xl:pt-4 font-open_sans xs:text-xs xs:font-normal xs:pt-0 lg:font-semibold lg:pt-3 lg:text-base'>{heading}</p>
         </div>
     </div>
   )

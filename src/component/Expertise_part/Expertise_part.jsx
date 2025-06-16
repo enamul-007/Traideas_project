@@ -29,7 +29,7 @@ const Expertise_part = () => {
   return (
     <div>
       <div className="bg-expertise_bg_color">
-        <div className="container">
+        <div className="container px-8">
           <div className="flex flex-col pb-[64px]">
             <div className="pt-6 pb-[63px]">
               <Common_overlay
@@ -39,11 +39,11 @@ const Expertise_part = () => {
             </div>
 
             {/* ===== Scroll Stacking Cards ===== */}
-            <div ref={containerRef} className="relative mt-20 ">
+            <div ref={containerRef} className="relative mt-20 mb-20 ">
               {cards.map((_, index) => (
                 <div
                   key={index}
-                  className={`stack-card sticky top-32  transition-all duration-500
+                  className={`stack-card sticky top-32 xs:top-90 xs:overflow-hidden transition-all duration-500
                     ${
                       index === activeIndex
                         ? "opacity-100 scale-100  translate-x-0 "

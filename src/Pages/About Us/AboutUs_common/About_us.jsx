@@ -5,7 +5,7 @@ const About_us = () => {
   return (
     <div>
       <div >
-        <div className="container">
+        <div className="container px-8">
           <div>
             <div>
               <h2 className="pt-12 text-4xl font-bold font-open_sans text-black_color">About us</h2>
@@ -24,7 +24,7 @@ const About_us = () => {
           </div>
           <div className="w-full h-[636px] ">
             <picture className="">
-                <img className="object-cover w-full h-[636px] rounded-3xl  " src={About_img} alt={About_img} />
+                <img className="object-cover w-full h-[660px] rounded-3xl " src={About_img} alt={About_img} />
             </picture>
           </div>
         </div>

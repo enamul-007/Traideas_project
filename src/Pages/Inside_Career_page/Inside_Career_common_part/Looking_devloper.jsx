@@ -12,7 +12,7 @@ const Looking_devloper = () => {
     <div>
       <>
         <div>
-          <div className="container ">
+          <div className="container pl-8">
             <div className="relative pt-[50px] ">
               <div>
                 <h1 className="text-4xl font-bold font-open_sans text-black_color">
@@ -97,7 +97,7 @@ const Looking_devloper = () => {
                     </p>
                   </div>
                 </div>
-                <div className="w-[327px] h-[600px] bg-[#D9D9D9] absolute top-[60px] right-[-70px]     rounded">
+                <div className="w-[327px] h-[600px] bg-[#D9D9D9] absolute top-[60px] right-[-50px]     rounded">
                   <div>
                     <div className="pt-[64px] pl-[75px] ">
                       <button

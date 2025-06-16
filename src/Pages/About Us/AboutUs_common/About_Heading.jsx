@@ -8,7 +8,7 @@ import CComponent from "../../../component/common_component/CComponent";
 const About_Heading = () => {
   return (
     <div>
-      <div className="container">
+      <div className="container px-8">
         <div className="pt-9">
           <div>
             <Common_overlay
