@@ -5,13 +5,13 @@ const Service_banner = () => {
   return (
     <div>
       <div className="bg-gradient-to-r from-sky-300 via-violet-600 to-indigo-600">
-        <div className="container">
+        <div className="container px-4 mx-auto sm:px-6 lg:px-8">
           <div>
-            <div className="py-[48px]">
-              <h2 className="text-4xl font-bold font-open_sans text-white_text_color">
+            <div className="py-8 md:py-12">
+              <h2 className="text-3xl font-bold sm:text-4xl font-open_sans text-white_text_color">
                 Service
               </h2>
-              <p className="text-base font-semibold font-open_sans text-white_text_color w-[770px] text-justify pt-[38px]">
+              <p className="text-sm sm:text-base font-semibold font-open_sans text-white_text_color w-full md:w-4/5 lg:w-[770px] text-justify pt-6 sm:pt-10">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -23,9 +23,13 @@ const Service_banner = () => {
                 consectetur a
               </p>
             </div>
-            <div className="pb-[48px]">
+            <div className="pb-8 md:pb-12">
               <picture>
-                <img className="w-full" src={Service_banner_img} alt={Service_banner_img} />
+                <img 
+                  className="w-full" 
+                  src={Service_banner_img} 
+                  alt="Service Banner" 
+                />
               </picture>
             </div>
           </div>

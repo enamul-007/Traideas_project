@@ -1,23 +1,23 @@
 import React from "react";
 import Common_overlay from "../../../component/common_component/Common_overlay";
-import Tecnology_img from "../../../assets/Tecnology_img.png"
+import Tecnology_img from "../../../assets/Tecnology_img.png";
 
 const Technology_part = () => {
   return (
     <div>
       <div className="bg-gradient-to-r from-[#001e33e1] to-[#02548aeb]">
-        <div className="container">
+        <div className="container px-4 mx-auto sm:px-6 lg:px-8">
           <div>
-            <div className="pt-12">
-              <Common_overlay title="Technology" 
-              style={{color:"white"}}
-              />
+            <div className="pt-8 md:pt-12">
+              <Common_overlay title="Technology" style={{ color: "white" }} />
             </div>
 
-            <div className="pb-[88px] flex justify-between">
-              <div >
-                <h2 className="text-3xl font-bold font-open_sans text-white_text_color pt-9">Ai / ML</h2>
-                <p className="text-base font-semibold text-justify font-open_sans text-white_text_color w-[587px]">
+            <div className="pb-12 md:pb-[88px] flex flex-col lg:flex-row items-center justify-between gap-8">
+              <div className="order-2 w-full lg:order-1 lg:w-1/2">
+                <h2 className="pt-6 text-2xl font-bold sm:text-3xl font-open_sans text-white_text_color md:pt-9">
+                  AI / ML
+                </h2>
+                <p className="text-sm sm:text-base font-semibold text-justify font-open_sans text-white_text_color w-full lg:w-[587px]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -27,9 +27,13 @@ const Technology_part = () => {
                   cupidatat non occaecat
                 </p>
               </div>
-              <div>
+              <div className="flex justify-center order-1 w-full lg:order-2 lg:w-1/2">
                 <picture>
-                    <img src={Tecnology_img} alt={Tecnology_img} />
+                  <img 
+                    src={Tecnology_img} 
+                    alt="AI/ML Technology" 
+                    className="w-full max-w-md mx-auto"
+                  />
                 </picture>
               </div>
             </div>

@@ -21,7 +21,7 @@ const Banner = () => {
       </div>
 
       {/* Banner Content */}
-      <div className="container px-4 mx-auto sm:px-6 lg:px-8">
+      <div className="container mx-auto sm:px-6 lg:px-8">
         <div className=" md:pt-4 lg:pt-12">
           <div className="flex flex-col items-center justify-between lg:flex-row lg:items-center">
             {/* Text Content */}
