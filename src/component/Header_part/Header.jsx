@@ -63,19 +63,19 @@ const Header = () => {
 
             {/* Stats Section */}
             <div className="pt-6 pb-12 xs:pt-1 xs:pb-5">
-              <div className="h-[2px] w-full bg-black_color xl:mx-2 lg:h-[2px]"></div>
-              <div className="xl:pt-[41px] xl:pb-[42px] xs:pt-1 xs:pb-[5px] ">
+              <div className="xl:h-[2px] w-full bg-black_color xl:mx-2 lg:h-[1.5px] xs:h-[2px] sm:h-[1.5px] "></div>
+              <div className="xl:pt-[41px] xl:pb-[42px] xs:pt-1 xs:pb-[4px] lg:py-3 md:py-2 sm:py-2  ">
                 <div className="flex items-center justify-between xs:justify-between xs:items-center xs:flex xs:gap-3 ">
                   <About_common title="5+" heading="Years of Experiences" />
-                  <div class="w-[1.5px] xl:h-[80px] bg-black_color xs:h-[50px] xs:w-[1.5px]  md:w-[1.75px]"></div>
+                  <div class="w-[1.5px] xl:h-[80px] bg-black_color xs:h-[50px] xs:w-[1.5px]  md:w-[1.75px] xl:w-[1.60px]"></div>
                   <About_common title="10+" heading="Creative Pros" />
-                  <div class="w-[2px] xl:h-[80px] bg-black_color  xs:h-[50px] xs:w-[1.5px] "></div>
+                  <div class="w-[2px] xl:h-[80px] bg-black_color  xs:h-[50px] xs:w-[1.5px] md:w-[1.75px] "></div>
                   <About_common title="50+" heading="Project Delivered" />
-                  <div class="w-[1.5px] xl:h-[80px] bg-black_color  xs:h-[50px] xs:w-[1.5px] "></div>
+                  <div class="w-[1.5px] xl:h-[80px] bg-black_color  xs:h-[50px] xs:w-[1.5px]  md:w-[1.75px]  "></div>
                   <About_common title="20+" heading="Industries Served" />
                 </div>
               </div>
-              <div className="h-[2px] w-full bg-black_color xl:mx-2 lg:h-[1px] xl:h-[2px] "></div>
+              <div className="h-[2px] w-full bg-black_color xl:mx-2 lg:h-[2px] xl:h-[2px] sm:h-[1.75px] "></div>
             </div>
           </div>
         </div>

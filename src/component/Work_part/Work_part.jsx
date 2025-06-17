@@ -22,7 +22,7 @@ const Work_part = () => {
               <img 
                 src={work_img1} 
                 alt="Consumer Complaint Management system" 
-                className="w-full h-auto max-w-[375px] mx-auto"
+                className="w-full h-auto xs:max-w-[375px] mx-auto xl:max-w-[638px]"
               />
             </div>
             <div className="w-full py-2 md:py-6">
@@ -47,7 +47,7 @@ const Work_part = () => {
               <img 
                 src={Work_img2} 
                 alt="Pret A Med" 
-                className="w-full h-auto max-w-[375px] mx-auto"
+                className="w-full h-auto xs:max-w-[375px] mx-auto xl:max-w-[638px]"
               />
             </div>
             <div className="w-full py-2 md:py-10">
@@ -72,7 +72,7 @@ const Work_part = () => {
               <img 
                 src={Work_img3} 
                 alt="Consumer Complaint Management system" 
-                className="w-full h-auto max-w-[375px] mx-auto"
+                className="w-full h-auto xs:max-w-[375px] mx-auto xl:max-w-[638px]"
               />
             </div>
             <div className="w-full py-2 md:py-10">

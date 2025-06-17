@@ -23,7 +23,7 @@ const Industry_part = () => {
           <div className="flex xl:gap-9 xs:gap-5 xs:flex-col xl:flex-row">
             {/* =========1============ */}
             <div
-              className="bg-gradient-to-r from-[#200E3E] to-[#243468] xl:h-[569px] xl:w-[664px] rounded-3xl mt-3 xs:w-[325px] xs:h-[300px] "
+              className="bg-gradient-to-r from-[#200E3E] to-[#243468] xl:h-[569px] xl:w-[664px] rounded-3xl mt-5 xs:w-[325px] xs:h-[300px] "
               onMouseEnter={() =>
                 document
                   .getElementById("industrySection")
@@ -55,7 +55,7 @@ const Industry_part = () => {
             </div>
             {/* ---------2--------- */}
             <div
-              className="bg-gradient-to-r from-[#13262C] to-[#0894A6] xl:h-[569px] xl:w-[470px] rounded-3xl mt-3 xs:w-[325px] xs:h-[300px]"
+              className="bg-gradient-to-r from-[#13262C] to-[#0894A6] xl:h-[569px] xl:w-[470px] rounded-3xl xl:mt-5 xs:w-[325px] xs:h-[300px] xs:mt-2"
               onMouseEnter={() =>
                 document
                   .getElementById("industrySection")
@@ -88,7 +88,7 @@ const Industry_part = () => {
 
             {/* =========3=========== */}
             <div
-              className="bg-gradient-to-r from-[#200E3E] to-[#243468] xl:h-[569px] xl:w-[664px] rounded-3xl xs:w-[325px] xs:h-[300px] xs:mt-[63px] "
+              className="bg-gradient-to-r from-[#200E3E] to-[#243468] xl:h-[569px] xl:w-[664px] rounded-3xl xs:w-[325px] xs:h-[300px] xs:mt-[63px] xl:mt-0 "
               onMouseEnter={() =>
                 document
                   .getElementById("industrySection")
@@ -100,7 +100,7 @@ const Industry_part = () => {
                   .classList.remove("bg-[#200E3E]")
               }
             >
-              <div >
+              <div>
                 <picture>
                   <img src={software_card_img3} alt={software_card_img3} />
                 </picture>
@@ -120,10 +120,10 @@ const Industry_part = () => {
             </div>
           </div>
 
-          <div className="flex gap-9 xs:flex-col xl:flex-row">
+          <div className="flex xl:gap-9 xs:flex-col xl:flex-row">
             {/* ==========4========== */}
             <div
-              className="bg-gradient-to-r from-[#13262C] to-[#0894A6] xl:h-[569px] xl:w-[470px] rounded-3xl mt-3 xs:w-[325px] xs:h-[300px]"
+              className="bg-gradient-to-r from-[#13262C] to-[#0894A6] xl:h-[569px] xl:w-[470px] rounded-3xl xl:mt-4 xs:w-[325px] xs:h-[300px] "
               onMouseEnter={() =>
                 document
                   .getElementById("industrySection")
@@ -137,10 +137,10 @@ const Industry_part = () => {
             >
               <div>
                 <div className="xl:w-[568px] xl:p-[48px]  flex flex-col">
-                  <h2 className="xl:font-bold xl:text-3xl font-open_sans text-white_text_color">
+                  <h2 className="xl:font-bold xl:text-3xl font-open_sans text-white_text_color xs:font-semibold xs:pl-5 xs:text-xl xs:pt-5">
                     Education
                   </h2>
-                  <p className="text-base font-semibold text-justify font-open_sans text-white_text_color xl:w-[374px] pt-6 ">
+                  <p className="xl:text-base xl:font-semibold text-justify font-open_sans text-white_text_color xl:w-[374px] xl:pt-6  xs:w-[300px] xs:pl-5 xs:text-xs xs:font-normal xs:pb-4">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam,
@@ -157,7 +157,7 @@ const Industry_part = () => {
             {/* ============5========= */}
 
             <div
-              className="bg-gradient-to-r from-[#200E3E] to-[#243468] h-[569px] w-[664px] rounded-3xl mt-3 xs:mt-14"
+              className="bg-gradient-to-r from-[#200E3E] to-[#243468] xl:h-[569px] xl:w-[664px] rounded-3xl xl:mt-4 xs:mt-[65px] xs:w-[325px] xs:h-[300px]"
               onMouseEnter={() =>
                 document
                   .getElementById("industrySection")
@@ -173,11 +173,11 @@ const Industry_part = () => {
                 <picture>
                   <img src={software_card_img5} alt="" />
                 </picture>
-                <div className="w-[568px] p-[48px]  flex flex-col">
-                  <h2 className="text-3xl font-bold font-open_sans text-white_text_color">
+                <div className="xl:w-[568px] xl:p-[48px]  flex flex-col xs:w-[300px]">
+                  <h2 className="xl:font-bold xl:text-3xl font-open_sans text-white_text_color xs:font-semibold xs:text-xl xs:py-1 xs:pl-5">
                     Healthcare
                   </h2>
-                  <p className="pt-6 text-base font-semibold text-justify font-open_sans text-white_text_color">
+                  <p className="text-justify xs:font-normal xl:font-semibold xl:text-base xl:pt-6 font-open_sans text-white_text_color xs:text-xs xs:pl-5">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, consectetur adipiscing
@@ -189,7 +189,7 @@ const Industry_part = () => {
             </div>
             {/* =========6=========== */}
             <div
-              className="bg-gradient-to-r from-[#13262C] to-[#0894A6] h-[569px] w-[470px] rounded-3xl "
+              className="bg-gradient-to-r from-[#13262C] to-[#0894A6] xl:h-[569px] xl:w-[470px] rounded-3xl xs:mt-5 xs:w-[325px] xl:mt-0 "
               onMouseEnter={() =>
                 document
                   .getElementById("industrySection")
@@ -202,11 +202,11 @@ const Industry_part = () => {
               }
             >
               <div>
-                <div className="w-[568px] p-[48px]  flex flex-col">
-                  <h2 className="text-3xl font-bold font-open_sans text-white_text_color">
-                    E- Com
+                <div className="xl:w-[568px] xl:p-[48px]  flex flex-col xs:w-[300px] xs:pt-4 xs:pl-5">
+                  <h2 className="xs:text-xl xl:font-bold xl:text-3xl font-open_sans text-white_text_color xs:font-semibold ">
+                    E- Commerce
                   </h2>
-                  <p className="text-base font-semibold text-justify font-open_sans text-white_text_color w-[374px] pt-6 ">
+                  <p className="xl:text-base xl:font-semibold text-justify font-open_sans text-white_text_color xl:w-[374px] xl:pt-6 xs:w-[300px] xs:text-xs xs:pb-4 ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam,
