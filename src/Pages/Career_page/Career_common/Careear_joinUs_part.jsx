@@ -2,18 +2,17 @@ import React from "react";
 
 const Careear_joinUs_part = () => {
   return (
-    <div>
-      <div className="bg-[#D9D9D9]">
-        <div className="container">
-         <div className="flex justify-center py-[76px]">
-             <div className="w-[833px]">
+    <div className="bg-[#D9D9D9]">
+      <div className="container px-4 mx-auto sm:px-6 lg:px-8">
+        <div className="flex justify-center py-12 md:py-16 lg:py-[76px]">
+          <div className="w-full md:w-4/5 lg:w-[833px]">
             <div className="flex justify-center">
-              <h3 className="items-center text-3xl font-bold font-open_sans text-black_color">
+              <h3 className="text-2xl font-bold sm:text-3xl font-open_sans text-black_color">
                 Join us
               </h3>
             </div>
-            <div>
-              <p className="pt-6 text-center">
+            <div className="mt-4 sm:mt-6">
+              <p className="text-sm text-center sm:text-base">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -24,7 +23,6 @@ const Careear_joinUs_part = () => {
               </p>
             </div>
           </div>
-         </div>
         </div>
       </div>
     </div>

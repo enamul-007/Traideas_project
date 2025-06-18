@@ -62,20 +62,28 @@ const Header = () => {
             </div>
 
             {/* Stats Section */}
-            <div className="pt-6 pb-12 xs:pt-1 xs:pb-5">
-              <div className="xl:h-[2px] w-full bg-black_color xl:mx-2 lg:h-[1.5px] xs:h-[1px] sm:h-[1.5px] "></div>
-              <div className="xl:pt-[41px] xl:pb-[42px] xs:pt-1 xs:pb-[4px] lg:py-3 md:py-2 sm:py-2  ">
-                <div className="flex items-center justify-between xs:justify-between xs:items-center xs:flex xs:gap-3 ">
-                  <About_common title="5+" heading="Years of Experiences" />
-                  <div class="w-[1.5px] xl:h-[80px] bg-black_color xs:h-[50px] xs:w-[1.5px]  md:w-[1.75px]"></div>
-                  <About_common title="10+" heading="Creative Pros" />
-                  <div class="w-[2px] xl:h-[80px] bg-black_color  xs:h-[50px] xs:w-[1.5px] "></div>
-                  <About_common title="50+" heading="Project Delivered" />
-                  <div class="w-[1.5px] xl:h-[80px] bg-black_color  xs:h-[50px] xs:w-[1.5px]  "></div>
-                  <About_common title="20+" heading="Industries Served" />
+            <div className="pt-6 pb-12">
+              <div className="h-[2px] w-full bg-black_color mx-2"></div>
+              <div className="pt-[29px] pb-[30px] lg:pt-4 lg:pb-[15px] md:pt-[22px] md:pb-[17px] xs:pt-2 xs:pb-[7px] ">
+                <div className="flex justify-between xs:gap-[15px] xs:pl-[15px] xl:gap-0 xl:pl-0">
+                  <div className="lg:pt-3 md:pt-4">
+                    <About_common title="5+" heading="Years of Experiences" />
+                  </div>
+                  <div class="w-[1.5px] h-[120px] bg-black_color md:h-[80px] sm:h-10  xs:h-[60px]"></div>
+                  <div className="lg:pt-3 md:pt-4">
+                    <About_common title="10+" heading="Creative Pros" />
+                  </div>
+                  <div class="w-[2px] h-[120px] bg-black_color md:h-[80px]  sm:h-10 xs:w-[1.84px] xs:h-[60px]"></div>
+                  <div className="lg:pt-3 md:pt-4">
+                    <About_common title="50+" heading="Project Delivered" />
+                  </div>
+                  <div class="w-[1.5px] h-[120px] bg-black_color md:h-[80px]  sm:h-10 xs:h-[60px] "></div>
+                  <div className="lg:pt-3 md:pt-4">
+                    <About_common title="20+" heading="Industries Served" />
+                  </div>
                 </div>
               </div>
-              <div className="h-[2px] w-full bg-black_color xl:mx-2 lg:h-[2px] xl:h-[2px] "></div>
+              <div className="h-[2px] w-full bg-black_color mx-2 "></div>
             </div>
           </div>
         </div>

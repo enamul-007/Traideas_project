@@ -12,6 +12,7 @@ import AboutUs from "./Pages/About Us/AboutUs";
 import Career from "./Pages/Career_page/Career";
 import Inside_Career from "./Pages/Inside_Career_page/Inside_Career";
 import Apply from "./Pages/Apply/Apply";
+import Contact from "./Pages/Contact_page/Contact";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -23,6 +24,7 @@ const router = createBrowserRouter(
       <Route path="/Career" element={<Career />} />
       <Route path="/Inside_Career" element={<Inside_Career />} />
       <Route path="/Apply" element={<Apply />} />
+      <Route path="/Contact" element={<Contact />} />
     </Route>
   )
 );

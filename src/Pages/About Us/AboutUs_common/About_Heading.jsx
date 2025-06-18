@@ -17,7 +17,7 @@ const About_Heading = () => {
               style={{ color: "black" }}
             />
           </div>
-          
+
           <div className="mt-4 md:mt-6">
             <h1 className="text-2xl font-bold md:text-3xl font-open_sans text-black_color">
               Heading of your choice
@@ -26,21 +26,45 @@ const About_Heading = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-              in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-              commodo consequat. Duis aute irure dolor in reprehenderit in
-              voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum.
+              cupidatat non proident, sunt in culpa qui officia deserunt mollit
+              anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
+          {/* =======$$$$$$$$$$$$$$$$====== */}
+          <div className="pt-6 pb-12">
+            <div className="h-[2px] w-full bg-black_color mx-2"></div>
+            <div className="pt-[29px] pb-[30px] lg:pt-4 lg:pb-[15px] md:pt-[22px] md:pb-[17px] xs:pt-2 xs:pb-[7px] ">
+              <div className="flex justify-between xs:gap-[15px] xs:pl-[15px] xl:gap-0 xl:pl-0">
+                <div className="lg:pt-3 md:pt-4">
+                  <About_common title="5+" heading="Years of Experiences" />
+                </div>
+                <div class="w-[1.5px] h-[120px] bg-black_color md:h-[80px] sm:h-10  xs:h-[60px]"></div>
+                <div className="lg:pt-3 md:pt-4">
+                  <About_common title="10+" heading="Creative Pros" />
+                </div>
+                <div class="w-[2px] h-[120px] bg-black_color md:h-[80px]  sm:h-10 xs:w-[1.84px] xs:h-[60px]"></div>
+                <div className="lg:pt-3 md:pt-4">
+                  <About_common title="50+" heading="Project Delivered" />
+                </div>
+                <div class="w-[1.5px] h-[120px] bg-black_color md:h-[80px]  sm:h-10 xs:h-[60px] "></div>
+                <div className="lg:pt-3 md:pt-4">
+                  <About_common title="20+" heading="Industries Served" />
+                </div>
+              </div>
+            </div>
+            <div className="h-[2px] w-full bg-black_color mx-2 "></div>
+          </div>
+          {/* =======$$$$$$$$$$$$$$$$====== */}
 
           {/* Mission Section */}
           <div className="mt-8 md:mt-12">
@@ -54,23 +78,22 @@ const About_Heading = () => {
                   Heading of your choice
                 </h2>
                 <p className="mt-4 text-sm font-semibold text-justify md:mt-6 md:text-base font-open_sans text-black_color xl:w-[600px]">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  sed do eiusmod tempor incididunt ut labore et dolore magna
-                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                  ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  Duis aute irure dolor in reprehenderit in voluptate velit
-                  esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                  sint occaecat cupidatat non occaecat cupidatat non
-                  proident, sunt in culpa qui officia deserunt mollit anim
-                  id est laborum.Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor incididunt ut
-                  labore et dolore magna aliqua. Ut enim ad minim veniam,
-                  quis nostrud exercitation ullamco laboris nisi ut aliquip
-                  ex ea commodo consequat. Duis aute irure dolor in
-                  reprehenderit in voluptate velit esse cillum dolore eu
-                  fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                  non occaecat cupidatat non proident, sunt in culpa qui
-                  officia deserunt mollit anim id est laborum.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum.Lorem ipsum
+                  dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                  minim veniam, quis nostrud exercitation ullamco laboris nisi
+                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                  reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                  nulla pariatur. Excepteur sint occaecat cupidatat non occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
                 </p>
               </div>
               <div className="w-full lg:w-1/2 aspect-square md:aspect-video lg:aspect-[4/3] lg:rounded-lg xs:rounded-lg xl:rounded-none overflow-hidden">
@@ -87,31 +110,27 @@ const About_Heading = () => {
           <div className="mt-8 md:mt-12 xl:mt-0">
             <div className="flex flex-col gap-6 lg:flex-row-reverse md:gap-8 xl:gap-0">
               <div className="w-full lg:w-1/2 xl:pl-8 xl:pt-6">
-                <Common_overlay
-                  title="Our Vision"
-                  style={{ color: "black" }}
-                />
+                <Common_overlay title="Our Vision" style={{ color: "black" }} />
                 <h2 className="mt-4 text-2xl font-bold md:mt-6 md:text-3xl font-open_sans text-black_color">
                   Heading of your choice
                 </h2>
                 <p className="mt-4 text-sm font-semibold text-justify md:mt-6 md:text-base font-open_sans text-black_color  xl:w-[600px] ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  sed do eiusmod tempor incididunt ut labore et dolore magna
-                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                  ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  Duis aute irure dolor in reprehenderit in voluptate velit
-                  esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                  sint occaecat cupidatat non occaecat cupidatat non
-                  proident, sunt in culpa qui officia deserunt mollit anim
-                  id est laborum.Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor incididunt ut
-                  labore et dolore magna aliqua. Ut enim ad minim veniam,
-                  quis nostrud exercitation ullamco laboris nisi ut aliquip
-                  ex ea commodo consequat. Duis aute irure dolor in
-                  reprehenderit in voluptate velit esse cillum dolore eu
-                  fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                  non occaecat cupidatat non proident, sunt in culpa qui
-                  officia deserunt mollit anim id est laborum.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum.Lorem ipsum
+                  dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                  minim veniam, quis nostrud exercitation ullamco laboris nisi
+                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                  reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                  nulla pariatur. Excepteur sint occaecat cupidatat non occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
                 </p>
               </div>
               <div className="w-full lg:w-1/2 aspect-square md:aspect-video lg:aspect-[4/3] rounded-lg overflow-hidden xl:rounded-none">
