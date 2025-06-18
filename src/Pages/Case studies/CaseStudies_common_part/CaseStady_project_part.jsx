@@ -66,7 +66,7 @@ const CaseStady_project_part = () => {
                     Duis aute irure dolor in reprehenderit a
                   </p>
                 </div>
-                <div className="flex gap-4 pt-4 md:pt-6 md:gap-7">
+                <div className="flex gap-4 pt-4 md:pt-6 md:gap-7 xs:pb-6">
                   <button className="bg-[#E0E0E0] px-3 py-1 md:px-4 md:py-2 rounded-3xl text-xs md:text-sm border border-gray-400 hover:bg-black hover:text-white transition-all">
                     Software
                   </button>
