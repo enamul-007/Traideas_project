@@ -18,7 +18,7 @@ const Transform_part = () => {
               <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold font-open_sans text-white_text_color w-full md:w-[570px] uppercase text-center md:text-left">
                 Transform your vision into reality
               </h3>
-              <div className="w-full md:w-auto">
+              <div className="w-full md:w-auto xs:pl-[20%]">
                 <CComponent text={"Get a free Consultation"} />
               </div>
             </div>

@@ -32,7 +32,7 @@ const Common_Footer = () => {
           {/* Menu Links */}
           <div className="">
             <h3 className="text-lg font-bold font-open_sans text-white_text_color xs:pl-[37%] xl:pl-0 sm:pl-0 md:pl-0">Menu</h3>
-            <ul className="space-y-2 xs:pl-[33%] xl:pl-0 sm:pl-0 md:pl-0">
+            <ul className="space-y-2 xs:pl-[36%] xl:pl-0 sm:pl-0 md:pl-0">
               {Footer_Item.map((item) => (
                 <li key={item.id}>
                   <Link 
@@ -48,26 +48,26 @@ const Common_Footer = () => {
 
           {/* Office Address */}
           <div className="space-y-4">
-            <h3 className="text-lg font-bold font-open_sans text-white_text_color xs:pl-[35%] xl:pl-0 sm:pl-0 md:pl-0">Office</h3>
-            <address className="text-sm sm:text-base font-semibold font-open_sans text-white_text_color not-italic max-w-[180px] xs:pl-[30%] xl:pl-0 sm:max-w-[240px] xs:text-center xl:text-start sm:pl-0 md:pl-0 sm:text-start md:text-start">
+            <h3 className="text-lg font-bold font-open_sans text-white_text_color xs:pl-[36%] xl:pl-0 sm:pl-0 md:pl-0">Office</h3>
+            <address className="text-sm sm:text-base font-semibold font-open_sans text-white_text_color not-italic max-w-[180px] xs:pl-[36%] xl:pl-0 sm:max-w-[240px] xs:text-center xl:text-start sm:pl-0 md:pl-0 sm:text-start md:text-start">
               6/2, S. S Alam Khandaker Road, Masdair, Narayanganj-1400.
             </address>
           </div>
 
           {/* Contact Info */}
           <div className="space-y-4">
-            <h3 className="text-lg font-bold font-open_sans text-white_text_color xs:pl-[32%] xl:pl-0 sm:pl-0 md:pl-0">Contact Us</h3>
+            <h3 className="text-lg font-bold font-open_sans text-white_text_color xs:pl-[35%] xl:pl-0 sm:pl-0 md:pl-0">Contact Us</h3>
             <div className="space-y-2">
               <a 
                 href="mailto:info@traideas.com" 
                 className="flex items-center gap-2 text-sm font-semibold sm:text-base font-open_sans text-white_text_color hover:underline"
               >
-                <MdMailOutline className="text-lg xs:pl-[25%] xl:pl-0 sm:pl-0 md:pl-0" />
+                <MdMailOutline className="text-lg xs:pl-[30%] xl:pl-0 sm:pl-0 md:pl-0" />
                 info@traideas.com
               </a>
               <a 
                 href="tel:+8801922293117" 
-                className="flex items-center gap-2 text-sm font-semibold sm:text-base font-open_sans text-white_text_color hover:underline xs:pl-[26%] xl:pl-0 sm:pl-0 md:pl-0"
+                className="flex items-center gap-2 text-sm font-semibold sm:text-base font-open_sans text-white_text_color hover:underline xs:pl-[30%] xl:pl-0 sm:pl-0 md:pl-0"
               >
                 <FaPhoneAlt className="text-base" />
                 +8801922293117

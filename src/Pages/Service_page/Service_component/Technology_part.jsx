@@ -6,13 +6,13 @@ const Technology_part = () => {
   return (
     <div>
       <div className="bg-gradient-to-r from-[#001e33e1] to-[#02548aeb]">
-        <div className="container px-4 mx-auto sm:px-6 lg:px-8">
+        <div className="container px-4 mx-auto sm:px-6 lg:px-8 ">
           <div>
-            <div className="pt-8 md:pt-12">
+            <div className="pt-8 md:pt-12 xs:pb-6">
               <Common_overlay title="Technology" style={{ color: "white" }} />
             </div>
 
-            <div className="pb-12 md:pb-[88px] flex flex-col lg:flex-row items-center justify-between gap-8">
+            <div className="pb-12 md:pb-[88px] flex flex-col lg:flex-row items-center justify-between gap-8 ">
               <div className="order-2 w-full lg:order-1 lg:w-1/2">
                 <h2 className="pt-6 text-2xl font-bold sm:text-3xl font-open_sans text-white_text_color md:pt-9">
                   AI / ML
@@ -27,11 +27,11 @@ const Technology_part = () => {
                   cupidatat non occaecat
                 </p>
               </div>
-              <div className="flex justify-center order-1 w-full lg:order-2 lg:w-1/2">
+              <div className="flex justify-center order-1 w-full lg:order-2 lg:w-1/2 xl:justify-end">
                 <picture>
                   <img 
                     src={Tecnology_img} 
-                    alt="AI/ML Technology" 
+                    alt={Tecnology_img} 
                     className="w-full max-w-md mx-auto"
                   />
                 </picture>
