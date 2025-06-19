@@ -5,6 +5,7 @@ import { FiMenu, FiX } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
 
 
+
 const Navbar = ({ className }) => {
   const navigate = useNavigate();
    const handleClick = () => {
@@ -67,7 +68,7 @@ const Navbar = ({ className }) => {
                 ))}
               </ul>
               <button 
-              onClick={handleClick}
+              onClick={handleClick} 
               className="px-4 py-2 text-sm transition-colors duration-200 bg-transparent border rounded-md xl:px-5 xl:py-2 font-open_sans border-white_text_color text-white_text_color hover:text-navbar_color hover:bg-white_text_color xl:text-base">
                 Contact Us
               </button>
