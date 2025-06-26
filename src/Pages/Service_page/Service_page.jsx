@@ -4,7 +4,7 @@ import Service_nav from "./Service_component/Service_nav";
 import Service_banner from "./Service_component/Service_banner";
 import Service_Development_part from "./Service_component/Service_Development_part";
 import Service_footer from "./Service_component/Service_footer";
-import Service_copyright_part from "./Service_component/service_copyright_part";
+import Service_copyright_part from "./Service_component/Service_copyright_part.jsx";
 import UI_XI_Part from "./Service_component/UI_XI_Part";
 import Technology_part from "./Service_component/Technology_part";
 import Transform_part from "./Service_component/Transform_part";
